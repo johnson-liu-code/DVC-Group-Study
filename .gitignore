@@ -1,0 +1,39 @@
+# ---- Python cache & bytecode ----
+__pycache__/
+*.py[cod]
+*$py.class
+.pythonlibs
+
+# C extensions
+*.so
+
+# ---- Virtual environments & local tooling ----
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ---- Environment & secrets ----
+.env
+.env.*
+*.env
+*.secret
+secrets.json
+
+# ---- PDF ----
+*.pdf
+
+# ---- Images ----
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# ---- Replit ----
+# Keep .replit and any Nix files (should be committed)
+# (No ignore rules here—left as documentation)
+
+
+.upm
+node_modules/*
